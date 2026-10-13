@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "customer_name": "Juan Dela Cruz",
+    "problem": "Internet connection keeps dropping",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "customer_name": "Kathryn Bernardo",
+    "problem": "Testtt",
+    "priority": "Medium",
+    "status": "Pending"
+  },
+  {
+    "id": 4,
+    "customer_name": "Test",
+    "problem": "PPPPP",
+    "priority": "Low",
+    "status": "Pending"
+  },
+  {
+    "id": 5,
+    "customer_name": "Alden Richards",
+    "problem": "aldub",
+    "priority": "Medium",
+    "status": "Pending"
+  }
+]

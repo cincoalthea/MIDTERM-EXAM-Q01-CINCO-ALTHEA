@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Service Ticket System</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    input, select, button { padding: 6px; margin: 4px 0; }
+    table { border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #999; padding: 8px; }
+    th { background: #eee; }
+  </style>
+</head>
+<body>
+  <h1>Service Ticket System</h1>
+
+  <h2>Add Ticket</h2>
+  <input type="text" id="customer_name" placeholder="Customer Name"><br>
+  <input type="text" id="problem" placeholder="Problem"><br>
+  <select id="priority">
+    <option value="">Select Priority</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+  </select><br>
+  <button onclick="addTicket()">Add Ticket</button>
+  <p id="message"></p>
+
+  <h2>Search Ticket by ID</h2>
+  <input type="number" id="searchId" placeholder="Ticket ID">
+  <button onclick="searchTicket()">Search</button>
+  <div id="result"></div>
+
+  <h2>All Tickets</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Customer Name</th>
+        <th>Problem</th>
+        <th>Priority</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="ticketTable"></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
